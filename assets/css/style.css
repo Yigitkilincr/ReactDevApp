@@ -1,0 +1,548 @@
+.example{
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes about_me_img_animation {
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes about_me_list_animation {
+    0%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes show-card {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.show-card{
+    animation-name: show-card;
+    animation-duration: 1s;
+    visibility: visible;
+
+}
+.show-card2{
+    animation-name: show-card;
+    animation-duration: 2s;
+    visibility: visible;
+
+}
+.show-card3{
+    animation-name: show-card;
+    animation-duration: 3s;
+    visibility: visible;
+
+}
+.linkedinClass{
+    visibility: hidden;
+}
+@font-face {
+    font-family: Syne;
+    src: url(../fonts/Syne-VariableFont_wght.ttf);
+    font-family: Viaoda Libre;
+    src: url(../fonts/ViaodaLibre-Regular.ttf);
+}
+
+@keyframes example {
+    0%  {background-color: red;}
+    50%  {background-color: yellow;}
+    70%  {background-color: blue;}
+    100% {background-color: green;}
+ }
+
+@media (min-width: 300px) {
+    .marginx{
+        text-align: center;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(../images/bg-1.png);
+       height: 600px;
+   }
+   #htmlWidth{
+       width: 35%;
+       height: 25rem;
+   }
+   #cssWidth{
+       width: 25%;
+       height: 25rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 25rem;
+   }
+    #phpWidth{
+        width: 30%;
+        height: 25rem;
+    }
+    .container{
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #aboutMe1{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    #aboutMe2{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: about_me_list_animation;
+        animation-duration: 1s;
+        visibility: visible;
+        
+    }
+    #aboutMe3{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: about_me_list_animation;
+        animation-duration: 1s;
+        visibility: visible;
+        
+    }
+    #aboutMe4{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: about_me_list_animation;
+        animation-duration: 1s;
+        visibility: visible;
+        
+    }
+    #aboutMeImg{
+        
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: about_me_img_animation;
+        animation-duration: 1s;
+        visibility: visible;
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlWidth{
+        width: 35%;
+        height: 12rem;
+    }
+    #cssWidth{
+        width: 25%;
+        height: 12rem;
+    }
+    #pythonWidth{
+        width: 30%;
+        height: 12rem;
+    }
+    #jsWidth{
+        width: 30%;
+        height: 10rem;
+    }
+    #phpWidth{
+        width: 30%;
+        height: 10rem;
+    }
+    #htmlhead{
+        font-size: 20px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 13px
+    }
+    #csshead{
+        font-size: 20px;
+        color: black;
+    }
+    #csstext{
+        font-size: 13px
+    }
+    #pythonhead{
+        font-size: 20px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 13px
+    }
+    #jshead{
+        font-size: 20px;
+        color: black;
+    }
+    #phphead{
+        font-size: 20px;
+        color: black;
+    }
+    #jstext{
+        font-size: 13px
+    }
+    #phptext{
+        font-size: 13px
+    }
+    #mailtext{
+        font-size: 14px;
+    }
+    #mailbutton{
+        width: 80px;
+        height: 50px;
+    }
+    #cardsContact{
+        height: 450px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .marginx{
+        margin-left: 22%;
+        margin-right: 22%;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(../images/bg-1.png);
+       height: 400px;
+   }
+   #htmlWidth{
+       width: 30%;
+       height: 15rem;
+   }
+   #cssWidth{
+       width: 30%;
+       height: 15rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 15rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 15rem;
+   }
+    #phpWidth{
+        width: 30%;
+        height: 15rem;
+    }
+   #aboutMe1{
+        font-size: 40px;
+        float: left;
+        margin-left: 60px;
+    }
+    #aboutMe2{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe3{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe4{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMeImg{  
+        width: 230px; 
+        float: right;
+    }
+    #aboutMeImgItem{
+        float: right;
+        
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlhead{
+        font-size: 30px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 15px
+    }
+    #csshead{
+        font-size: 30px;
+        color: black;
+    }
+    #csstext{
+        font-size: 15px
+    }
+    #pythonhead{
+        font-size: 30px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 15px
+    }
+    #jshead{
+        font-size: 30px;
+        color: black;
+    }
+    #phphead{
+        font-size: 30px;
+        color: black;
+    }
+    #jstext{
+        font-size: 15px
+    }
+    #phptext{
+        font-size: 15px
+    }
+    #mailtext{
+        font-size: 30px;
+    }
+    #mailbutton{
+        width: 150px;
+        height: 100px;
+        border-radius: 80px;
+    }
+    #cardsContact{
+        height: 200px;
+    }  
+}
+
+@media (min-width:992px) {
+    .marginx{
+        margin-left: 42%;
+        margin-right: 42%;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(../images/bg-1.png);
+       height: 400px;
+   }
+   #htmlWidth{
+       width: 35%;
+       height: 25rem;
+   }
+   #cssWidth{
+       width: 25%;
+       height: 25rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 25rem;
+   }
+    #phpWidth{
+        width: 30%;
+        height: 25rem;
+    }
+   #aboutMe1{
+        font-size: 40px;
+        float: left;
+        margin-left: 60px;
+    }
+    #aboutMe2{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe3{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe4{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMeImg{  
+        width: 230px; 
+        float: right;
+    }
+    #aboutMeImgItem{
+        float: right;
+        
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlhead{
+        font-size: 40px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 25px
+    }
+    #csshead{
+        font-size: 40px;
+        color: black;
+    }
+    #csstext{
+        font-size: 25px
+    }
+    #pythonhead{
+        font-size: 40px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 25px
+    }
+    #jshead{
+        font-size: 40px;
+        color: black;
+    }
+    #phphead{
+        font-size: 40px;
+        color: black;
+    }
+    #jstext{
+        font-size: 25px
+    }
+    #phptext{
+        font-size: 25px
+    }
+    #mailtext{
+        font-size: 40px;
+    }
+    #mailbutton{
+        width: 160px;
+        height: 100px;
+        border-radius: 80px;
+    }
+    #cardsContact{
+        height: 200px;
+    }
+}
+
+@media (min-width:1400px) {
+    .marginx{
+        margin-left: 35%;
+        margin-right: 35%;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(../images/bg-1.png);
+       height: 400px;
+   }
+   #htmlWidth{
+       width: 35%;
+       height: 25rem;
+   }
+   #cssWidth{
+       width: 25%;
+       height: 25rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 25rem;
+   }
+    #phpWidth{
+        width: 30%;
+        height: 25rem;
+    }
+   #aboutMe1{
+        font-size: 40px;
+        float: left;
+        margin-left: 60px;
+    }
+    #aboutMe2{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe3{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMe4{
+        font-size: 20px;
+        float: left;
+        
+    }
+    #aboutMeImg{  
+        width: 230px; 
+        float: right;
+    }
+    #aboutMeImgItem{
+        float: right;
+        
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlhead{
+        font-size: 40px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 25px
+    }
+    #csshead{
+        font-size: 40px;
+        color: black;
+    }
+    #csstext{
+        font-size: 25px
+    }
+    #pythonhead{
+        font-size: 40px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 25px
+    }
+    #jshead{
+        font-size: 40px;
+        color: black;
+    }
+    #phphead{
+        font-size: 40px;
+        color: black;
+    }
+    #jstext{
+        font-size: 25px
+    }
+    #phptext{
+        font-size: 25px
+    }
+    #mailtext{
+        font-size: 40px;
+    }
+    #mailbutton{
+        width: 160px;
+        height: 100px;
+        border-radius: 80px;
+    }
+    #cardsContact{
+        height: 200px;
+    }
+}
